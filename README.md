@@ -1,20 +1,11 @@
-# controleTemperaturaEstufa
+# Controle de Estufa
 
-## Getting Started
+## Descrição
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O sistema permite:
+- Declarar variáveis para temperatura mínima, máxima e atual.
+- Que o usuário insira temperaturas por um período de 24 horas.
+- Calcular a média das temperaturas
+- Identificar quantas ficaram acima do limite máximo
+- Mostrar a menor e a maior temperatura do dia
+- Exibir mensagens com base em operadores lógicos.
